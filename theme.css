@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli|Playfair+Display&display=swap');
 
 :root {
 	--primary: #1A1F39;
@@ -6,34 +6,75 @@
 	--tertiary: #748597;
 	--neutral: #EDEEF0;
 	--extra: #6B58A4;
+	--cont: #F4F7F8;
+
+	--bfont: 'Muli', sans-serif;
+	/* --bfont: font-family: 'Playfair Display', serif; */ 
+}
+
+body {
+	background-color: var(--neutral);
+	text-align: left;
 }
 
 h1 {
 	color: var(--primary);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
-
 h2 {
 	color: var(--secondary);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
-
 h3 {
 	color: var(--tertiary);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
-
 h4 {
 	color: var(--extra);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
-
 h5 {
 	color: var(--primary);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
-
 h6 {
 	color: var(--secondary);
-	font-family: 'Muli', sans-serif;
+	font-family: var(--bfont);
 }
+
+p {
+	color: var(--secondary);
+	font-family: var(--bfont);
+}
+
+button {
+	background-color: var(--secondary);
+	color: var(--neutral);
+	font-family: var(--bfont);
+	border-radius: 10px;
+}
+
+.bigbutton {
+	font-size: 16pt;
+	padding-right: 10px; 
+  	padding-left:  10px;
+  	padding-top: 10px; 
+  	padding-bottom:  10px;
+  	border-radius: 25px; 
+}
+
+.wcont {
+	background-color: var(--cont);
+}
+
+.container {
+	padding-right: 50px; 
+  	padding-left:  50px;
+  	padding-top: 10px; 
+  	padding-bottom:  10px; 
+}
+
+.cent {
+	text-align: center;
+}
+
