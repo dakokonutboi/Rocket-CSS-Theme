@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+:root {
+	--primary: #1A1F39;
+	--secondary: #7481A2;
+	--tertiary: #748597;
+	--neutral: #EDEEF0;
+	--extra: #6B58A4;
+}
+
+h1 {
+	color: var(--primary);
+	font-family: 'Muli', sans-serif;
+}
+
+h2 {
+	color: var(--secondary);
+	font-family: 'Muli', sans-serif;
+}
+
+h3 {
+	color: var(--tertiary);
+	font-family: 'Muli', sans-serif;
+}
+
+h4 {
+	color: var(--extra);
+	font-family: 'Muli', sans-serif;
+}
+
+h5 {
+	color: var(--primary);
+	font-family: 'Muli', sans-serif;
+}
+
+h6 {
+	color: var(--secondary);
+	font-family: 'Muli', sans-serif;
+}
